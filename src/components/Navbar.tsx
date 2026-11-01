@@ -12,6 +12,7 @@ const navLinks = [
   { name: 'Skills', path: '/skills' },
   { name: 'Activities', path: '/activities' },
   { name: 'Videos', path: '/videos' },
+  { name: 'CV', path: '/cv' },
   { name: 'Contact', path: '/contact' },
 ];
 

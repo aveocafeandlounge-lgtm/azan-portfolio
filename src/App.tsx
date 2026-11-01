@@ -9,6 +9,7 @@ import { Leadership } from './pages/Leadership';
 import { Skills } from './pages/Skills';
 import { Activities } from './pages/Activities';
 import { Videos } from './pages/Videos';
+import { CV } from './pages/CV';
 import { Contact } from './pages/Contact';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path="/skills" element={<Skills />} />
             <Route path="/activities" element={<Activities />} />
             <Route path="/videos" element={<Videos />} />
+            <Route path="/cv" element={<CV />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
